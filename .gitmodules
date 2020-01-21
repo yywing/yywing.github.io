@@ -1,0 +1,3 @@
+[submodule "themes/materialized"]
+	path = themes/materialized
+	url = https://github.com/theme-materialized/hexo-theme-materialized
