@@ -17,5 +17,5 @@ tags:
 - 修改 `.travis.yml` 让 ci 自动 build 项目
 - `git add . && git commit -m "init" && git push origin master` 将代码 push 到 github 上
 - 在 github 项目 setting 中配置 gitpage 配置，选择分支，配置 CNAME
-
-
+- 在 github setting/Developer settings 中生成 token
+- 在 travis 打开项目，并配置 setting 填入环境变量 `GH_TOKEN` 和上一步生成的 token
